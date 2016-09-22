@@ -4,27 +4,40 @@ body{
     background-image: url("assets/images/slash_it.png");
     background-color: darkgrey;
 }
+p{
+    font-size: 16px;
+    line-height: 200%;
+}
+/*wrapped each row in a container that has the fixed width and is centered.
+ *overflow auto stops the container from collapsing when child elements are floated*/
 .container{
     width: 960px;
     margin: auto;
     overflow: auto;
 }
 #social li img {
-    width: 50px;
+    width: 60px;
     height: auto;
+    margin-right: 6px;
 }
 #social ul li {
     display: inline;
 }
 ul#nav li{
     display: inline;
+    font-size: 18px;
+    color: grey;
+    margin: 0 12px;
+    border-right: 1px solid grey;
 }
 ul#nav{
     float: right;
     color:#777;
+    padding: 30px 0;
 }
 ul#nav li a{
     color:#333;
+    text-decoration: none;
 }
 #header{
     background-color: white;
@@ -33,7 +46,7 @@ ul#nav li a{
 }
 #header h1{
     float: left;
-    font-size: 30px;
+    font-size: 32px;
     background-color: #4aaaa5;
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -42,13 +55,13 @@ ul#nav li a{
 }
 h2{
     color: #4aaaa5;
-    font-size: 24px;
+    font-size: 28px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
 }
 h3{
     color: #4aaaa5;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
 }
@@ -56,25 +69,27 @@ img#portrait{
     width: 200px;
     height: auto;
     float: left;
-    margin:10px;
+    margin:0 10px 10px 0;
 }
 #body {
     clear: both;
     display: block;
-    width: 650px;
+    width: 608px;
     float: left;
     border: 1px solid #dddddd;
-    margin:10px;
+    margin:30px 0;
     background-color:#fff;
+    padding:30px 20px;
 }
 
 #social {
     float: right;
     display: block;
-    width: 270px;
+    width: 208px;
     border: 1px solid #dddddd;
-    margin:10px;
+    margin:30px 0;
     background-color:#fff;
+    padding:25px 30px 35px 30px;
 }
 footer{
     clear: both;
@@ -83,5 +98,21 @@ footer{
     color:#ccc;
     font-size: 12px;
     text-align: center;
-    border-top: 4px solid #4aaaa5;
+    border-top: 7px solid #4aaaa5;
+}
+div.ruler-lg{
+    background-color:#ddd;
+    width: 100%;
+    height: 3px;
+    margin: 30px 0;
+}
+div.ruler-sm{
+    background-color:#ddd;
+    width: 100%;
+    height: 2px;
+    margin: 20px 0;
+    }
+footer .container{
+    overflow: visible;
+    /*added this to get rid of little scroll arrows that were appearing*/
 }

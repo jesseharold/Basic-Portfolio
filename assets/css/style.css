@@ -4,6 +4,10 @@ body{
     background-image: url("../images/subtle_white_feathers.png");
     background-color: darkgrey;
 }
+/*the sticky footer requires this - found solution on stack overflow! */
+html, body {
+    height: 100%;
+}
 p{
     font-size: 18px;
     line-height: 200%;
@@ -134,7 +138,7 @@ footer{
     border-top: 8px solid #4aaaa5;
     height: 24px;
 }
+/* added this to get rid of little scroll arrows that were appearing in chrome */
 footer .container{
     overflow: visible;
-    /*added this to get rid of little scroll arrows that were appearing*/
 }

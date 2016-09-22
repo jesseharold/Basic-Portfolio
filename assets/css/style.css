@@ -1,6 +1,13 @@
 body{
     color: #777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("assets/images/slash_it.png");
+    background-color: darkgrey;
+}
+.container{
+    width: 960px;
+    margin: auto;
+    overflow: auto;
 }
 #social li img {
     width: 50px;
@@ -26,18 +33,24 @@ ul#nav li a{
 }
 #header h1{
     float: left;
-    font-size: 28px;
+    font-size: 30px;
     background-color: #4aaaa5;
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    padding:30px;
 }
 h2{
-    
+    color: #4aaaa5;
+    font-size: 24px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
 }
 h3{
-    
+    color: #4aaaa5;
+    font-size: 22px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
 }
 img#portrait{
     width: 200px;
@@ -51,6 +64,8 @@ img#portrait{
     width: 650px;
     float: left;
     border: 1px solid #dddddd;
+    margin:10px;
+    background-color:#fff;
 }
 
 #social {
@@ -58,8 +73,15 @@ img#portrait{
     display: block;
     width: 270px;
     border: 1px solid #dddddd;
+    margin:10px;
+    background-color:#fff;
 }
 footer{
     clear: both;
     background-color: #666666;
+    padding: 40px 0;
+    color:#ccc;
+    font-size: 12px;
+    text-align: center;
+    border-top: 4px solid #4aaaa5;
 }

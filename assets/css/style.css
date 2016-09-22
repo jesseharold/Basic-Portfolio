@@ -9,6 +9,20 @@ p{
     line-height: 200%;
     margin-bottom: 18px;
 }
+/*this div makes the footer sticky*/
+/* I got this code snippet from  Chris Coyier at CSS Tricks.com*/
+#pagewrapper {
+    min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -92px; 
+}
+#pagewrapper:after {
+  content: "";
+  display: block;
+}
+#pagewrapper:after {
+  height: 92px; 
+}
 /*wrapped each row in a container that has the fixed width and is centered.
  *overflow auto stops the container from collapsing when child elements are floated*/
 .container{
@@ -16,7 +30,6 @@ p{
     margin: auto;
     overflow: auto;
 }
-
 #header h1{
     float: left;
     font-size: 32px;
@@ -119,6 +132,7 @@ footer{
     font-size: 12px;
     text-align: center;
     border-top: 8px solid #4aaaa5;
+    height: 24px;
 }
 footer .container{
     overflow: visible;

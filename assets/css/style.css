@@ -142,3 +142,17 @@ footer{
 footer .container{
     overflow: visible;
 }
+
+/* Contact Form Styles */
+#contactform {
+    line-height: 30px;
+}
+input[type=text] {
+    padding:12px;
+    margin-bottom: 20px;
+    width:578px;
+}
+textarea {
+    width:578px;
+    height:200px;
+}

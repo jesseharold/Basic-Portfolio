@@ -61,9 +61,14 @@ ul#nav{
     color:#777;
     padding: 32px 0;
 }
-ul#nav li a, ul#nav li a:hover, ul#nav li a:active, ul#nav li a:visited{
+ul#nav li a, ul#nav li a:active, ul#nav li a:visited{
     color:#989898;
     text-decoration: none;
+}
+
+ul#nav li a:hover {
+    color: #4aaaa5;
+    text-decoration: underline;
 }
 #header{
     background-color: white;
@@ -177,6 +182,10 @@ textarea {
 }
 .port-img-holder:nth-child(even) {
     margin-right: 0;
+}
+
+.port-img-holder:hover .port-caption {
+    opacity: .5;
 }
 .port-img-holder .port-caption {
     position: absolute;

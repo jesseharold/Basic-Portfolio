@@ -165,3 +165,21 @@ textarea {
     width:578px;
     height:200px;
 }
+
+/* portfolio images styles */
+.port-img-holder {
+    float: left;
+    width: 275px;
+    height: 206px;
+    overflow: hidden;
+    border: 1px #ccc solid;
+    margin: 20px 10px 56px 0;
+    position: relative;
+}
+.port-img-holder .port-caption {
+    position: absolute;
+    top:140px;
+    width: 100%;
+    background-color: #4aaaa5;
+    color: white;
+}

@@ -31,8 +31,7 @@ p{
  *overflow auto stops the container from collapsing when child elements are floated*/
 .container{
     width: 960px;
-    /* I think margin:auto; looks better, but setting this to a fixed width to make it easier to compare to the comp */
-    margin: 0 89px;
+    margin: 0 120px;
     overflow: auto;
 }
 #header h1{
@@ -91,7 +90,7 @@ h3{
     border: 1px solid #dddddd;
     margin:40px 0;
     background-color:#fff;
-    padding:42px 30px;
+    padding:37px 30px;
 }
 #social {
     float: right;
@@ -169,17 +168,24 @@ textarea {
 /* portfolio images styles */
 .port-img-holder {
     float: left;
-    width: 275px;
-    height: 206px;
+    width: 273px;
+    height: 204px;
     overflow: hidden;
     border: 1px #ccc solid;
-    margin: 20px 10px 56px 0;
+    margin: 15px 35px 40px 0;
     position: relative;
+}
+.port-img-holder:nth-child(even) {
+    margin-right: 0;
 }
 .port-img-holder .port-caption {
     position: absolute;
-    top:140px;
+    top:135px;
     width: 100%;
     background-color: #4aaaa5;
     color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }

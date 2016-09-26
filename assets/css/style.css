@@ -153,6 +153,14 @@ input[type=text] {
     margin-bottom: 12px;
     width:558px;
 }
+button[type=submit] {
+    padding:10px 25px;
+    margin-top: 10px;
+    border: 0;
+    background-color: #4aaaa5;
+    color:#fff;
+    font-size: 18px;
+}
 textarea {
     width:578px;
     height:200px;

@@ -127,6 +127,10 @@ div.ruler-sm{
 .social ul li {
     display: inline;
 }
+/* adding hover effect to social icons*/
+.social li img:hover {
+    opacity: .5;
+}
 img.portrait{
     width: 200px;
     height: auto;

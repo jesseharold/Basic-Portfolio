@@ -15,16 +15,16 @@ p{
 }
 /*this div makes the footer sticky*/
 /* I got this code snippet from  Chris Coyier at CSS Tricks.com*/
-#pagewrapper {
+.pagewrapper {
     min-height: 100%;
   /* equal to footer height */
   margin-bottom: -92px; 
 }
-#pagewrapper:after {
+.pagewrapper:after {
   content: "";
   display: block;
 }
-#pagewrapper:after {
+.pagewrapper:after {
   height: 92px; 
 }
 /*wrapped each row in a container that has the fixed width and is centered.
@@ -34,7 +34,7 @@ p{
     margin: 0 120px;
     overflow: auto;
 }
-#header h1{
+.header h1{
     float: left;
     font-size: 32px;
     background-color: #4aaaa5;
@@ -43,7 +43,7 @@ p{
     font-weight: bold;
     padding:30px;
 }
-ul#nav li{
+ul.nav li{
     display: inline;
     font-size: 18px;
     color: #989898;
@@ -52,25 +52,25 @@ ul#nav li{
     border-right: 1px solid #eee;
 }
 /*last nav item doesn't get a bar or space on the right*/
-ul#nav li:last-child{
+ul.nav li:last-child{
     border-right: 0;
     padding-right: 0;
 }
-ul#nav{
+ul.nav{
     float: right;
     color:#777;
     padding: 32px 0;
 }
-ul#nav li a, ul#nav li a:active, ul#nav li a:visited{
+ul.nav li a, ul.nav li a:active, ul.nav li a:visited{
     color:#989898;
     text-decoration: none;
 }
 
-ul#nav li a:hover {
+ul.nav li a:hover {
     color: #4aaaa5;
     text-decoration: underline;
 }
-#header{
+.header{
     background-color: white;
     border-bottom: 2px solid #cccccc;
 }
@@ -87,7 +87,7 @@ h3{
     font-weight: bold;
 }
 
-#body {
+.maincontent {
     clear: both;
     display: block;
     width: 586px;
@@ -97,7 +97,7 @@ h3{
     background-color:#fff;
     padding:37px 30px;
 }
-#social {
+.social {
     float: right;
     display: block;
     width: 208px;
@@ -119,15 +119,15 @@ div.ruler-sm{
     height: 2px;
     margin: 24px 0;
     }
-#social li img {
+.social li img {
     width: 60px;
     height: auto;
     margin-right: 6px;
 }
-#social ul li {
+.social ul li {
     display: inline;
 }
-img#portrait{
+img.portrait{
     width: 200px;
     height: auto;
     float: left;
@@ -149,7 +149,7 @@ footer .container{
 }
 
 /* Contact Form Styles */
-#contactform {
+.contactform {
     line-height: 30px;
 }
 input[type=text] {
